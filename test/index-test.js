@@ -32,13 +32,6 @@ function currentLine(katzDeliLine){
     let current = katzDeliLine[i]
     let position = i + 1
 
-    // BEGIN OPTION 1
-    // if (i === katzDeliLine.length - 1) {
-    //   status += ` ${position}. ${current}`
-    // } else {
-    //   status += ` ${position}. ${current},`
-    // }
-    // END OF OPTION 1
 
     // BEGIN OPTION 2
     let formatted = ` ${position}. ${current}`
